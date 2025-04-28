@@ -33,7 +33,7 @@ requirements.txt                        # Arquivo de dependências do projeto
 
 ### Gerar o arquivo de moedas
 
-O arquivo de moedas pode ser gerado automaticamente utilizando o script `gerador_arquivo_moedas.py`, que irá criar um arquivo Excel com a lista de moedas a serem consultadas.
+O arquivo de moedas `deve` ser gerado automaticamente utilizando o script `gerador_arquivo_moedas.py`, que irá criar um arquivo Excel com a lista de moedas a serem consultadas.
 
 1. **Execute o script `gerador_arquivo_moedas.py`**:
 

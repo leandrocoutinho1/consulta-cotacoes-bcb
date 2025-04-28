@@ -19,9 +19,10 @@ class CotacaoManager:
         self.inicializar_logger()
 
     def inicializar_logger(self):
-        log_dir = 'src/logs'
+        os.makedirs('src/logs', exist_ok=True)  # <-- cria o diretório se não existir
+
         logging.basicConfig(
-            filename=f'{log_dir}/log_processo.log',
+            filename='src/logs/log_processo.log',
             level=logging.INFO,
             format='%(asctime)s - %(levelname)s - %(message)s'
         )
